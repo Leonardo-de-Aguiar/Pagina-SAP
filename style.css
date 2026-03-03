@@ -2,4 +2,51 @@
     border-radius: 20px;
     display: flex;
     background-color: lightblue;
+    color: blue;
 }
+
+.botao_ajuda{
+    color: white;
+    border-radius: 40px;
+}
+
+.compra_material{
+    background-color: blue;
+    border-radius: 40px;
+}
+.compra_servico{
+    background-color: blue;
+    border-radius: 40px;
+}
+.fluxo_processos{
+    background-color: blue;
+    border-radius: 40px;
+}
+.status_requisicoes{
+    background-color: blue;
+    border-radius: 40px;
+}
+.nao_sei{
+    background-color: blue;
+    border-radius: 40px;
+}
+.fale_comigo{
+    background-color: blue;
+    border-radius: 40px;
+    color: white;
+}
+
+#robozinho_acenando{
+    display: flex;
+}
+
+main{
+    display: flex;
+}
+
+#satus_pedidos{
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+
