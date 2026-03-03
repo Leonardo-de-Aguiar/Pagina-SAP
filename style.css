@@ -49,4 +49,19 @@ main{
     border-radius: 20px;
 }
 
+.status_cabecalho{
+    display: flex;
+    gap: 20px;    
+    color: blue;
+}
 
+.cabecalho_tabela{
+    display: flex;
+    gap: 50px;
+    color: blue;
+}
+
+.tabela{
+    background-color: white;
+    border-radius: 10px;
+}
