@@ -66,11 +66,65 @@ width: 20px;
     display: flex;
 }
 
-main{
+.pagina_cima{
     display: flex;
 }
 
 #satus_pedidos{
     background-color: lightblue;
     border-radius: 20px;
+    margin: 20px;
+}
+.status_cabecalho{
+    display: flex;
+    color: blue;
+    gap: 20px;
+}
+.cabecalho_tabela{
+    display: flex;
+    gap: 30px;
+    color: blue;
+}
+.tabela{
+    background-color: white;
+    border-radius: 10px;
+}
+.ultimas_compras{
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 20px;
+}
+.parte_de_cima{
+    display: flex;
+    color: blue;
+    gap: 300px;
+}
+.compras{
+    display: flex;
+    gap: 50px;
+    background-color:;
+}
+.precos{
+    display: flex;
+    gap: 90px;
+}
+.compras_e_precos{
+    background-color: white;
+    border-radius: 20px;
+}
+.pagina_meio{
+    display: flex;
+}
+.mensagens_e_alertas{
+    margin: 30px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.mensagens_e_alertas_cima{
+    display: flex;
+    color: blue;
+    gap: 20px;
+}
+.nomes{
+    text-align: center;
 }
