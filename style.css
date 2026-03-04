@@ -128,3 +128,51 @@ width: 20px;
 .nomes{
     text-align: center;
 }
+#joao1{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+#marcio1{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+#joao2{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+#marcio2{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+.imagens_produtos{
+    display: flex;
+    gap: 70px;
+}
+#Folha_A4{
+    height: 70px;
+    width: 70px;
+}
+#SAP{
+    height: 70px;
+    width: 70px;
+}
+#Grampeador{
+    height: 70px;
+    width: 70px;
+}
+#Caneta{
+    height: 70px;
+    width: 70px;
+}
+#Lapis{
+    height: 70px;
+    width: 70px;
+}
+#Caderno{
+    height: 70px;
+    width: 70px;
+}
