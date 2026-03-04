@@ -6,17 +6,10 @@ display: flex;
 
 
 
-
-
-
-
-
-
 }
 
 
 
-}
 
 #icon{
 
@@ -29,6 +22,7 @@ width: 20px;
     border-radius: 20px;
     display: flex;
     background-color: lightblue;
+    color: blue;
 }
 
 .botao_ajuda{
@@ -102,7 +96,7 @@ width: 20px;
 .compras{
     display: flex;
     gap: 50px;
-    background-color:;
+
 }
 .precos{
     display: flex;
@@ -175,4 +169,52 @@ width: 20px;
 #Caderno{
     height: 70px;
     width: 70px;
+}
+.ultimas_requisicoes{
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.ultimas_requisicoes_cima{
+    display: flex;
+    gap: 400px;
+    color: blue;
+}
+.pedidos_e_imagem{
+    display: flex;
+    gap: 40px;
+}
+#imagem_pedidos{
+    height: 150px;
+    width: 500px;;
+}
+.pagina_baixo{
+    display: flex;
+}
+#transacoes_folha{
+    height: 100px;
+    width: 100px;
+}
+#transacoes_SAP{
+    height: 100px;
+    width: 100px;
+}
+#transacoes_grampeador{
+    height: 100px;
+    width: 100px;
+}
+.ultimas_transacoes{
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 20px;
+}
+.ultimas_transacoes_cima{
+    display: flex;
+    color: blue;
+    gap: 40px;
+}
+.ultimas_transacoes_baixo{
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    margin: 10px;
 }
