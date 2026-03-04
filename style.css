@@ -36,7 +36,6 @@ background-color: rgb(216, 212, 212);
     color: gray;
     gap: 10px;
 
-}
 
 #icon {
 
@@ -70,6 +69,7 @@ display: flex;
     border-radius: 20px;
     display: flex;
     background-color: lightblue;
+    color: blue;
 }
 
 .botao_ajuda{
@@ -143,7 +143,7 @@ display: flex;
 .compras{
     display: flex;
     gap: 50px;
-    background-color:;
+
 }
 .precos{
     display: flex;
@@ -168,4 +168,100 @@ display: flex;
 }
 .nomes{
     text-align: center;
+}
+#joao1{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+#marcio1{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+#joao2{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+#marcio2{
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+}
+.imagens_produtos{
+    display: flex;
+    gap: 70px;
+}
+#Folha_A4{
+    height: 70px;
+    width: 70px;
+}
+#SAP{
+    height: 70px;
+    width: 70px;
+}
+#Grampeador{
+    height: 70px;
+    width: 70px;
+}
+#Caneta{
+    height: 70px;
+    width: 70px;
+}
+#Lapis{
+    height: 70px;
+    width: 70px;
+}
+#Caderno{
+    height: 70px;
+    width: 70px;
+}
+.ultimas_requisicoes{
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.ultimas_requisicoes_cima{
+    display: flex;
+    gap: 400px;
+    color: blue;
+}
+.pedidos_e_imagem{
+    display: flex;
+    gap: 40px;
+}
+#imagem_pedidos{
+    height: 150px;
+    width: 500px;;
+}
+.pagina_baixo{
+    display: flex;
+}
+#transacoes_folha{
+    height: 100px;
+    width: 100px;
+}
+#transacoes_SAP{
+    height: 100px;
+    width: 100px;
+}
+#transacoes_grampeador{
+    height: 100px;
+    width: 100px;
+}
+.ultimas_transacoes{
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 20px;
+}
+.ultimas_transacoes_cima{
+    display: flex;
+    color: blue;
+    gap: 40px;
+}
+.ultimas_transacoes_baixo{
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    margin: 10px;
 }
