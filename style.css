@@ -6,10 +6,10 @@
 
 }
 
-.background{
+.background {
 
-height: 5%;
-width: 100%;
+    height: 5%;
+    width: 100%;
 
 }
 
@@ -18,7 +18,7 @@ width: 100%;
 
     display: flex;
     gap: 10px;
-background-color: rgb(216, 212, 212);
+    background-color: rgb(216, 212, 212);
 
 }
 
@@ -26,15 +26,10 @@ background-color: rgb(216, 212, 212);
 
     display: flex;
     gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+background-color: rgb(216, 212, 212);
 
-    
-}
-
-#nfunction {
-
-    display: flex;
-    color: gray;
-    gap: 10px;
 }
 
 #icon {
@@ -44,222 +39,276 @@ background-color: rgb(216, 212, 212);
 
 }
 
-#input{
+#input {
 
-padding: 5px;
-vertical-align: bottom;
-
-}
-
-.left-title{
-
-display: flex;
+    padding: 5px;
+    vertical-align: bottom;
 
 }
 
-#left-toolbar{
-
-display: flex;
 
 
+
+#left-chart {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
 
 }
 
-#robozinho{
+.left-title {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#robozinho {
     border-radius: 20px;
     display: flex;
     background-color: lightblue;
     color: blue;
 }
 
-.botao_ajuda{
+.botao_ajuda {
     color: white;
     border-radius: 40px;
 }
 
-.compra_material{
+.compra_material {
     background-color: blue;
     border-radius: 40px;
 }
-.compra_servico{
+
+.compra_servico {
     background-color: blue;
     border-radius: 40px;
 }
-.fluxo_processos{
+
+.fluxo_processos {
     background-color: blue;
     border-radius: 40px;
 }
-.status_requisicoes{
+
+.status_requisicoes {
     background-color: blue;
     border-radius: 40px;
 }
-.nao_sei{
+
+.nao_sei {
     background-color: blue;
     border-radius: 40px;
 }
-.fale_comigo{
+
+.fale_comigo {
     background-color: blue;
     border-radius: 40px;
     color: white;
 }
 
-#robozinho_acenando{
+#robozinho_acenando {
     display: flex;
 }
 
-.pagina_cima{
+.pagina_cima {
     display: flex;
 }
 
-#satus_pedidos{
+#satus_pedidos {
     background-color: lightblue;
     border-radius: 20px;
     margin: 20px;
 }
-.status_cabecalho{
+
+.status_cabecalho {
     display: flex;
     color: blue;
     gap: 20px;
 }
-.cabecalho_tabela{
+
+.cabecalho_tabela {
     display: flex;
     gap: 30px;
     color: blue;
 }
-.tabela{
+
+.tabela {
     background-color: white;
     border-radius: 10px;
 }
-.ultimas_compras{
+
+.ultimas_compras {
     background-color: lightblue;
     border-radius: 20px;
     margin: 20px;
 }
-.parte_de_cima{
+
+.parte_de_cima {
     display: flex;
     color: blue;
     gap: 300px;
 }
-.compras{
+
+.compras {
     display: flex;
     gap: 50px;
 
 }
-.precos{
+
+.precos {
     display: flex;
     gap: 90px;
 }
-.compras_e_precos{
+
+.compras_e_precos {
     background-color: white;
     border-radius: 20px;
 }
-.pagina_meio{
+
+.pagina_meio {
     display: flex;
 }
-.mensagens_e_alertas{
+
+.mensagens_e_alertas {
     margin: 30px;
     background-color: lightblue;
     border-radius: 20px;
 }
-.mensagens_e_alertas_cima{
+
+.mensagens_e_alertas_cima {
     display: flex;
     color: blue;
     gap: 20px;
 }
-.nomes{
+
+.nomes {
     text-align: center;
 }
-#joao1{
+
+#joao1 {
     background-color: white;
     border-radius: 40px;
     margin: 20px;
 }
-#marcio1{
+
+#marcio1 {
     background-color: white;
     border-radius: 40px;
     margin: 20px;
 }
-#joao2{
+
+#joao2 {
     background-color: white;
     border-radius: 40px;
     margin: 20px;
 }
-#marcio2{
+
+#marcio2 {
     background-color: white;
     border-radius: 40px;
     margin: 20px;
 }
-.imagens_produtos{
+
+.imagens_produtos {
     display: flex;
     gap: 70px;
 }
-#Folha_A4{
+
+#Folha_A4 {
     height: 70px;
     width: 70px;
 }
-#SAP{
+
+#SAP {
     height: 70px;
     width: 70px;
 }
-#Grampeador{
+
+#Grampeador {
     height: 70px;
     width: 70px;
 }
-#Caneta{
+
+#Caneta {
     height: 70px;
     width: 70px;
 }
-#Lapis{
+
+#Lapis {
     height: 70px;
     width: 70px;
 }
-#Caderno{
+
+#Caderno {
     height: 70px;
     width: 70px;
 }
-.ultimas_requisicoes{
+
+.ultimas_requisicoes {
     background-color: lightblue;
     border-radius: 20px;
 }
-.ultimas_requisicoes_cima{
+
+.ultimas_requisicoes_cima {
     display: flex;
     gap: 400px;
     color: blue;
 }
-.pedidos_e_imagem{
+
+.pedidos_e_imagem {
     display: flex;
     gap: 40px;
 }
-#imagem_pedidos{
+
+#imagem_pedidos {
     height: 150px;
-    width: 500px;;
+    width: 500px;
+    ;
 }
-.pagina_baixo{
+
+.pagina_baixo {
     display: flex;
 }
-#transacoes_folha{
+
+#transacoes_folha {
     height: 100px;
     width: 100px;
 }
-#transacoes_SAP{
+
+#transacoes_SAP {
     height: 100px;
     width: 100px;
 }
-#transacoes_grampeador{
+
+#transacoes_grampeador {
     height: 100px;
     width: 100px;
 }
-.ultimas_transacoes{
+
+.ultimas_transacoes {
     background-color: lightblue;
     border-radius: 20px;
     margin: 20px;
 }
-.ultimas_transacoes_cima{
+
+.ultimas_transacoes_cima {
     display: flex;
     color: blue;
     gap: 40px;
 }
-.ultimas_transacoes_baixo{
+
+.ultimas_transacoes_baixo {
     text-align: center;
     background-color: white;
     border-radius: 40px;
